@@ -1,0 +1,37 @@
+.home-page {
+    background: url('../../public/assets/home-page.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.optional-cards button{
+    cursor: pointer !important;
+}
+
+.cards-section, .optional-cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cards-section a, .optional-cards button{
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: black;
+    margin: 20px;
+}
+
+.cards-section a div, .optional-cards button{
+    height: 100px;
+    width: 400px;
+    border-radius: 20px;
+    background-color: aliceblue;
+    opacity: 0.8;
+    border: 1px solid gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

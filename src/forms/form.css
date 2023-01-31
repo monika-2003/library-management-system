@@ -1,0 +1,36 @@
+.form {
+    width: 400px;
+    display: block;
+    margin: 100px auto;
+}
+
+.form-row {
+    margin-top: 30px;
+}
+
+.form-row label {
+    display: inline-block;
+    width: 150px;
+    text-align: left;
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+.form-row input {
+    padding: 6px 3px;
+    border-radius: 5px;
+    outline: none;
+    width: 230px;
+    border: 1px solid grey;
+}
+
+.form-btn {
+    background-color: rgb(200, 222, 242);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    display: block;
+    width: 200px;
+    margin: 30px auto;
+}
